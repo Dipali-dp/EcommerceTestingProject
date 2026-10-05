@@ -12,7 +12,7 @@ public class ExcelTest {
     public void readExcelData() throws IOException {
 
         ExcelUtility.loadExcel(
-                "resources/testdata.xlsx",
+                "src/resources/testdata.xlsx",
                 "Sheet1"
         );
 
